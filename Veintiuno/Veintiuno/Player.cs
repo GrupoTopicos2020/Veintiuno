@@ -30,12 +30,27 @@ namespace Veintiuno {
 
         }
 
-        /*public static int sumadeCarta(Carta carta)
+        public static int sumadeCarta(Carta carta)
         {
+            int Resultado = 0;
+            Carta carta1 = new Carta(0,"",0);
+            //carta1.ValorCarta = 0;
+
+            Carta carta2 = new Carta(0,"",0);
+            //carta2.ValorCarta = 0;
+
+            Carta carta3 = new Carta(0,"",0);
+            //carta3.ValorCarta = 0;
+            
+            Carta carta4 = new Carta(0,"",0);
+            //carta4.ValorCarta = 0;
+
+            Resultado = carta1.ValorCarta + carta2.ValorCarta + carta3.ValorCarta + carta4.ValorCarta;
 
 
-            return;
-        }*/ 
+
+            return Resultado;
+        } 
 
 
 
