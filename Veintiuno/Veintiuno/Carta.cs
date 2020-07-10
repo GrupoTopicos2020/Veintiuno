@@ -28,16 +28,30 @@ namespace Veintiuno {
 
             this.NumeroCarta = numerocarta;
             this.suit = suitcarta;
-            this.ValorCarta = valorcarta;
-
-            if (true)
-                {
-                 
-                }
+            this.ValorCarta = valorcarta;  
 
             }
 
+        public int AsignacionValor(Carta carta)
+        {
 
-       }
+            if (carta.NumeroCarta == "J" | carta.NumeroCarta == "Q" | carta.NumeroCarta == "K")
+            {
+                return carta.ValorCarta = 10;
+
+            }
+            else
+                {
+                int valor = 0;
+
+                int.TryParse(carta.NumeroCarta, out valor);
+                carta.ValorCarta = valor;
+
+                return carta.ValorCarta;
+                }
+            }
+
+
+        }
     }
 
