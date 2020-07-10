@@ -10,5 +10,9 @@ namespace Veintiuno {
      */
     class Deck {
 
+        public Deck() {
+
+        }
+
     }
 }

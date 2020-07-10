@@ -11,6 +11,16 @@ namespace Veintiuno {
 
         bool isRunning;
 
+        public Game() {
+
+            Console.WriteLine("//Juego ejecutandose");
+
+            while (isRunning) {
+                //La logica y los turnos irian aca.
+            
+            }
+
+        }
 
     }
 }
