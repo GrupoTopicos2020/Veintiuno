@@ -9,8 +9,35 @@ namespace Veintiuno {
      */
     class Carta {
 
-        public Carta() {
+        public enum SuitCarta
+            {
+                Hearts,
+                Spades,
+                Clubs,
+                Diamonds
+            }
+        public string NumeroCarta { get; set; }
 
-        }
+        public readonly SuitCarta suit;
+
+        public int ValorCarta { get; set; }
+       
+        
+        public Carta(SuitCarta suitcarta, string numerocarta, int valorcarta) 
+            {
+
+            this.NumeroCarta = numerocarta;
+            this.suit = suitcarta;
+            this.ValorCarta = valorcarta;
+
+            if (true)
+                {
+                 
+                }
+
+            }
+
+
+       }
     }
-}
+
