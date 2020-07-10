@@ -1,0 +1,13 @@
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.exe
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.deps.json
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.runtimeconfig.json
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.runtimeconfig.dev.json
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.dll
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.pdb
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.csprojAssemblyReference.cache
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.AssemblyInfoInputs.cache
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.AssemblyInfo.cs
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.csproj.CoreCompileInputs.cache
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.dll
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.pdb
+C:\Users\Richie\source\repos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.genruntimeconfig.cache
