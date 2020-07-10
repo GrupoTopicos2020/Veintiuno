@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Veintiuno
 {
-    public enum suit
+    public enum Suit
     {
         Hearts,
         Spades,

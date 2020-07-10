@@ -9,48 +9,30 @@ namespace Veintiuno {
      */
     class Carta {
 
-        public enum SuitCarta
-            {
-                Hearts,
-                Spades,
-                Clubs,
-                Diamonds
-            }
-        public string NumeroCarta { get; set; }
-
-        public readonly SuitCarta suit;
-
-        public int ValorCarta { get; set; }
        
-        
-        public Carta(SuitCarta suitcarta, string numerocarta, int valorcarta) 
+        public string NumeroCarta { get; set; }     
+        public int ValorCarta { get; set; }
+        public Suit ElSuit { get; set; }
+
+        public Carta(int numerocarta, Suit elSuit)
+        {
+            ElSuit = elSuit;
+            ValorCarta = numerocarta;
+            if (2 <= numerocarta && numerocarta <= 9)
+                NumeroCarta = numerocarta.ToString();
+        }
+        public Carta( string numerocarta, Suit elSuit) 
             {
 
             this.NumeroCarta = numerocarta;
-            this.suit = suitcarta;
-            this.ValorCarta = valorcarta;  
-
-            }
-
-        public int AsignacionValor(Carta carta)
-        {
-
-            if (carta.NumeroCarta == "J" | carta.NumeroCarta == "Q" | carta.NumeroCarta == "K")
-            {
-                return carta.ValorCarta = 10;
-
-            }
-            else
-                {
-                int valor = 0;
-
-                int.TryParse(carta.NumeroCarta, out valor);
-                carta.ValorCarta = valor;
-
-                return carta.ValorCarta;
-                }
-            }
-
+            this.ElSuit = elSuit;
+            if (NumeroCarta == "J" || NumeroCarta == "Q" || NumeroCarta == "K")
+                this.ValorCarta = 10;
+            if ('2' <= NumeroCarta[0] && NumeroCarta[0] <= '9')
+                this.ValorCarta = (int)NumeroCarta[0];
+            if (NumeroCarta == "A")
+                this.ValorCarta = 11;
+        }       
 
         }
     }
