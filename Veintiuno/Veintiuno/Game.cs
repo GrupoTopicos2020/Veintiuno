@@ -139,25 +139,47 @@ namespace Veintiuno {
 
         public void GetGanadores() {
             Console.Clear();
-            Console.WriteLine("Ganadores: ");
+            Console.WriteLine("Jugadores: ");
 
-            List<Player> tmp = new List<Player>();
-            
             //Revisar por 21.
             foreach (Player x in players) {
                 if (x.suma == 21) {
-                    tmp.Add(x);
+                    x.PrintPlayerInfo();
                 }
             }
-    
-            if (tmp.Count != 0) {
-                foreach (Player x in players) {
-                    Console.WriteLine("Jugadores con 21: ");
-                    x.PrintPlayerInfo());
-                }
+            if (dealer.suma == 21) {
+                dealer.PrintPlayerInfo();
             }
 
-            Console.WriteLine("\n\n\nInfo:");
+            //Revisar por orden.
+            int score = 0;
+            foreach (Player x in players) {
+                if (x.suma > score && x.suma < 22) {
+                    score = x.suma;
+                }
+            }
+            if (dealer.suma > score && dealer.suma < 22) {
+                score = dealer.suma;
+            }
+
+            foreach (Player x in players) {
+                if (x.suma == score) {
+                    Console.WriteLine(x.name + " HA GANADO!");
+                } else if (x.suma != score) {
+                    Console.WriteLine(x.name + " HA PERDIDO!");
+                }
+            }
+            if (dealer.suma == score) {
+                Console.WriteLine(dealer.name + " HA GANADO!");
+            } else if (dealer.suma != score) {
+                Console.WriteLine(dealer.name + " HA PERDIDO!");
+            }
+            
+
+
+
+
+            Console.WriteLine("\n\nInfo:");
             dealer.PrintPlayerInfo();
 
             foreach (Player x in players) {
@@ -168,7 +190,6 @@ namespace Veintiuno {
 
         public void Reiniciar() {
 
-            
 
             dealer.suma = 0;
             cartas.mazoUsado.AddRange(dealer.mano);
@@ -181,6 +202,8 @@ namespace Veintiuno {
                 x.mano.Clear();
                 x.jugando = true;
             }
+
+            cartas.Barajear();
         }
 
         public void AgregarPlayers() {
