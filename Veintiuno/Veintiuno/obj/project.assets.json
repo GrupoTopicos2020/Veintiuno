@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Richie\\Source\\Repos\\VeintiunoTopicos\\Veintiuno\\Veintiuno\\Veintiuno.csproj",
+      "projectUniqueName": "C:\\Users\\Richie\\Source\\Repos\\Veintiuno\\Veintiuno\\Veintiuno\\Veintiuno.csproj",
       "projectName": "Veintiuno",
-      "projectPath": "C:\\Users\\Richie\\Source\\Repos\\VeintiunoTopicos\\Veintiuno\\Veintiuno\\Veintiuno.csproj",
+      "projectPath": "C:\\Users\\Richie\\Source\\Repos\\Veintiuno\\Veintiuno\\Veintiuno\\Veintiuno.csproj",
       "packagesPath": "C:\\Users\\Richie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Richie\\Source\\Repos\\VeintiunoTopicos\\Veintiuno\\Veintiuno\\obj\\",
+      "outputPath": "C:\\Users\\Richie\\Source\\Repos\\Veintiuno\\Veintiuno\\Veintiuno\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

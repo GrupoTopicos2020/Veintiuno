@@ -11,7 +11,6 @@ namespace Veintiuno {
 
             new Game();
 
-
         }
     }
 }

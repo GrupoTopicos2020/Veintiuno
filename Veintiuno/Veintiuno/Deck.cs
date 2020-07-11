@@ -11,11 +11,75 @@ namespace Veintiuno {
      */
     class Deck {
 
+        public List<Carta> mazo = new List<Carta>(); //Mazon resultante.
+        public List<Carta> mazoUsado = new List<Carta>();
+
+
+        /*
+         * Constructor que se usa siempre que se quiera inicializar el mazo.
+         */
         public Deck() {
+            CrearMazo();
+            Barajear();
+        }
 
-            InicializarDeck();
+
+        /*
+         * Combinacion para un mazo completo de 52 cartas.
+         */
+        public void CrearMazo() {
+            char[] suits = { 'D', 'C', 'T', 'P' };
+            string[] nums = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
+
+            for (int s = 0; s < suits.Length; s++) {
+
+                for (int n = 0; n < nums.Length; n++) {
+
+                    mazo.Add(new Carta(nums[n], suits[s]));
+
+                }
+
+            }
+
+            //Remover su uso en memoria.
+            suits = null; 
+            nums = null;
+
+        }
 
 
+        /*
+         * Intercambio sencillo de cartas. 
+         */
+        public void Barajear() {
+            List<Carta> tmp = new List<Carta>(); //Lista temporal
+
+            mazo.AddRange(mazoUsado); //Agregando las cartas usadas de vuelta al mazo para volver a barajear.
+
+            //Agregar una carta aleatoria, sacarla del mazo y meterlo en tmp.
+            for (int i = 0; i < 52; i++) {
+                int rand = new Random().Next(0, mazo.Count());
+
+                tmp.Add(mazo.ElementAt(rand));
+                mazo.RemoveAt(rand);
+            }
+
+            mazo.AddRange(tmp); //Meter todas las cartas de tmp en el mazo.
+            tmp = null; //Liberar espacio en memoria.
+
+        }
+
+        public Carta DarCarta() {
+            Carta x = mazo.ElementAt(0);
+            mazo.RemoveAt(0);
+
+            return x;
+        }
+
+        public void PrintMazo() {
+            foreach (Carta x in mazo) {
+                Console.WriteLine(x.PrintCarta());
+            }
         }
 
 

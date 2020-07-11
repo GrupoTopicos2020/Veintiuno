@@ -24,3 +24,16 @@ C:\Users\Richie\Source\Repos\VeintiunoTopicos\Veintiuno\Veintiuno\obj\Debug\netc
 C:\Users\Richie\Source\Repos\VeintiunoTopicos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.dll
 C:\Users\Richie\Source\Repos\VeintiunoTopicos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.pdb
 C:\Users\Richie\Source\Repos\VeintiunoTopicos\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.genruntimeconfig.cache
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.csprojAssemblyReference.cache
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.AssemblyInfoInputs.cache
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.AssemblyInfo.cs
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.csproj.CoreCompileInputs.cache
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.dll
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.pdb
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.exe
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.deps.json
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.runtimeconfig.json
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.runtimeconfig.dev.json
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.dll
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\bin\Debug\netcoreapp3.1\Veintiuno.pdb
+C:\Users\Richie\Source\Repos\Veintiuno\Veintiuno\Veintiuno\obj\Debug\netcoreapp3.1\Veintiuno.genruntimeconfig.cache
