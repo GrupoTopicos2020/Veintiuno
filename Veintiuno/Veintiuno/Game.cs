@@ -113,10 +113,10 @@ namespace Veintiuno {
                         dealer.jugando = false;
                     }
 
-                    System.Threading.Thread.Sleep(2000);
-
-
                 }
+
+                Console.WriteLine("(Redireccionando a los scores)");
+                System.Threading.Thread.Sleep(3000);
 
                 GetGanadores();
                 Console.ReadLine();
@@ -138,6 +138,9 @@ namespace Veintiuno {
         }
 
         public void GetGanadores() {
+
+            
+
             Console.Clear();
             Console.WriteLine("Jugadores: ");
 
